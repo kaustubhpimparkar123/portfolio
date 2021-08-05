@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-
 class About extends Component {
   render() {
 
     if(this.props.data){
       var name = this.props.data.name;
-      var profilepic= "images/"+this.props.data.image;
+      // var profilepic= "images/"+this.props.data.image;
+      var profilepic = "https://media-exp1.licdn.com/dms/image/C4E03AQFfbjJ8gDMYEQ/profile-displayphoto-shrink_400_400/0/1594301804904?e=1633564800&v=beta&t=vilE0qNdXsmJYhJ7xCuyCFWX2cYGzCFSU-XbHCLqg8Y"
       var bio = this.props.data.bio;
       var street = this.props.data.address.street;
       var city = this.props.data.address.city;
@@ -13,7 +13,7 @@ class About extends Component {
       var zip = this.props.data.address.zip;
       var phone= this.props.data.phone;
       var email = this.props.data.email;
-      var resumeDownload = this.props.data.resumedownload;
+      // var resumeDownload = this.props.data.resumedownload;
     }
 
     return (
@@ -31,7 +31,7 @@ class About extends Component {
                   <h2>Contact Details</h2>
                   <p className="address">
 						   <span>{name}</span><br />
-                     <span>{phone}</span><br />
+                     {/* <span>{phone}</span><br /> */}
                      <span>{email}</span><br />
                      <span>{city}, {state}</span><br />
                      <span>(willing to relocate)</span>
@@ -39,7 +39,8 @@ class About extends Component {
                </div>
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} className="button" target="_blank"><i className="fa fa-download"></i>Download Resume</a>
+                  <a href='/resume/Kaustubh_Pimparkar_Resume.pdf' className="button" target="_blank"><i className="fa fa-download"></i>Download Resume</a>
+                  {/* <a href={resumeDownload} className="button" target="_blank"><i className="fa fa-download"></i>Download Resume</a> */}
                   </p>
                </div>
             </div>

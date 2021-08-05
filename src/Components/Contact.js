@@ -99,13 +99,6 @@ class Contact extends Component {
                      {city}, {state} (willing to relocate)<br />
 					   </p>
 				   </div>
-
-               <div className="widget widget_tweets">
-                  <h4 className="widget-title">Project Repos (source code)</h4>
-                  <ul id="twitter">
-                     {projectRepos}
-                  </ul>
-		         </div>
             </aside>
       </div>
    </section>
