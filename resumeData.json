@@ -1,0 +1,141 @@
+{
+  "main": {
+    "name":"Kaustubh Pimparkar",
+    "description":"Software Developer / Lifetime Student",
+    "image":"profilepic.jpg",
+    "bio":"I am currently a graduate student at Santa Clara University with a majors in Computer Science and Engineering. I like dabbling in various parts of Web / RPA / C++ development and like to learn about new technologies, go for a hike or simply play games in my free time.",
+    "contactmessage":"Feel free to contact me via email, this form, or LinkedIn",
+    "email": "kspimparkar@scu.edu",
+    "phone": "",
+    "github":"https://github.com/kaustubhpimparkar123",
+    "project":"https://www.linkedin.com/in/kaustubh-pimparkar-45042115a/",
+    "address":{
+      "street":"(Your Street)",
+      "city":"Santa Clara",
+      "state":"CA",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "website": "https://github.com/tutchings",
+    "social":[
+      {
+        "name":"github",
+        "url":"https://github.com/tutchings",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/thomas-tutchings-2340871b7/",
+        "className":"fa fa-linkedin"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"* Each skill level is weighted in correlation to the remaining skills",
+    "education":[
+      {
+        "school":"Santa Clara University, CA",
+        "gpa": "4.00 GPA",
+        "degree":"M.S in Computer Science and Engineering",
+        "graduated":"Expected: March 2023",
+        "description":"Coursework Included: Operating System, Computer Networks."
+      },
+      {
+        "school":"University of Pune, India",
+        "gpa": "3.71 GPA",
+        "degree":"Bachelor's of Engineering in Information Technology",
+        "graduated":"June 2019",
+        "description":"Coursework Included: Data Structures, Design and Analysis of Algorithms, Database Management Systems, Software Engineering, Machine Learning, Artificial Intelligence, Web Development, Data Analysis."
+      }
+    ],
+    "work":[
+      {
+        "company":"Union Bank of Switzerland",
+        "title":"Software Engineer",
+        "years":"July 2019 - July 2020",
+        "description":"Engineered and maintained Transaction and Performance processing with CheckFree’s Global Investment Manager (GIM) system. Designed processes using database programming and shell scripting to do various tasks in the system, including Account Conversion, Performance Scheduling, Sub-Accounting. Created Automation Bots using UiPath to automate the UI Health Check of Banking Applications"
+      },
+      {
+        "company":"Ethosh Digital",
+        "title":"Software Intern",
+        "years":"June 2018 - July 2018",
+        "description":"Developed a voice feedback chatbot integrated in a web page using IBM Watson assistant (Bluemix) on a node server. Devised a complex dialogue for Watson assistant based on user input intents and extracted entities. Hosted the application on IBM cloud to ensure security and scalability of the application."
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Disney Platformer",
+        "shorttitle": "Disney Platformer",
+        "category":"Personal Project",
+        "image":"disneyPlatformer.PNG",
+        "info":"HTML, CSS, JS, Bootstrap, Adobe Photoshop",
+        "url":"https://tutchings.github.io/disneyPlatformer/",
+        "repo":"https://github.com/tutchings/disneyPlatformer"
+      },
+      {
+        "title":"Wake Forest University ASGM Project",
+        "shorttitle": "WFU ASGM Project",
+        "category":"Academic (group) Project",
+        "image":"wfu-asgm-project.PNG",
+        "info":"Amazon Web Services (AWS), Serverless, Express, Vuejs, Nodejs, Axios, MongoDB, Mongoose, HTML, CSS, JS, jQuery",
+        "url":"https://asgmwfu.com/index.html",
+        "repo":"https://github.com/tutchings/wfu-asgm-awsServerlessLambda"
+      },
+      {
+        "title":"Exploring National Parks During Covid: Live Search",
+        "shorttitle": "NPS Covid: Live Search",
+        "category":"Academic (group) Project",
+        "image":"nps.png",
+        "info":"HTML, CSS, JS, jQuery, Materialize, GoogleMaps and Geocoding APIs, NPS API, Covid Tracking Project API, Bing News API, MapQuest API",
+        "url":"https://tutchings.github.io/exploringParksDuringCovidLiveSearch/",
+        "repo":"https://github.com/tutchings/exploringParksDuringCovidLiveSearch"
+      },
+      {
+        "title":"React User Directory",
+        "shorttitle": "React User Directory",
+        "category":"Academic Project",
+        "image":"userDirectoryImg1.PNG",
+        "info":"React, Nodejs, Axios, Random User API, HTML, CSS, JS, Bootstrap",
+        "url":"https://tutchings.github.io/19-user-directory/",
+        "repo":"https://github.com/tutchings/19-user-directory"
+      },
+      {
+        "title":"Budget Tracker PWA",
+        "shorttitle": "Budget Tracker",
+        "category":"Academic Project",
+        "image":"budgetTracker1.PNG",
+        "info":"MongoDB, Mongoose, webpack, service-worker, Express, Nodejs",
+        "url":"https://budget-tracker-18-pwa.herokuapp.com",
+        "repo":"https://github.com/tutchings/18_BudgetTrackerPWA"
+      },
+      {
+        "title":"Burger Tracker",
+        "shorttitle": "Burger Tracker",
+        "category":"Academic Project",
+        "image":"burgerTracker.PNG",
+        "info":"MySql, Express, Nodejs, Handlebars, HTML, CSS, JS, Bootstrap, jQuery",
+        "url":"https://mysql-mvc-burger-shop.herokuapp.com/",
+        "repo":"https://github.com/tutchings/13_burgerTracker"
+      },
+      {
+        "title":"Weather Dashboard",
+        "shorttitle": "Weather Dashboard",
+        "category":"Academic Project",
+        "image":"weatherDashboard.png",
+        "info":"HTML, CSS, Bootstrap, JS, jQuery, OpenWeather API, MapQuest API",
+        "url":"https://tutchings.github.io/6_weatherDashboard/",
+        "repo":"https://github.com/tutchings/6_weatherDashboard"
+      },
+      {
+        "title":"BlackJack Game",
+        "shorttitle": "BlackJack",
+        "category":"Personal Project",
+        "image":"blackjack.PNG",
+        "info":"HTML, CSS, JS",
+        "url":"https://tutchings.github.io/blackjack/",
+        "repo":"https://github.com/tutchings/blackjack"
+      }
+    ]
+  }
+}
