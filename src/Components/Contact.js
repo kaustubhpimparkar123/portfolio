@@ -49,9 +49,9 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form action="https://formsubmit.co/kaustubhpimparkar123@gmail.com" method="post" id="contactForm" name="contactForm">
+               <form action="" method="post" id="contactForm" name="contactForm">
 					<fieldset>
-                  <input type="hidden" name="_subject" value="New submission!" />
+
                   <div>
 						   <label htmlFor="contactName">Name <span className="required">*</span></label>
 						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
