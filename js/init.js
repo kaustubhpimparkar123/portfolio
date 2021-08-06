@@ -153,7 +153,7 @@
 
 	      type: "POST",
 	      url: "inc/sendEmail.php",
-	      data: data,
+	      data: {data},
 	      success: function(msg) {
 
             // Message was sent
