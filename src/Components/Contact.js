@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-
+import emailjs from 'emailjs-com';
+import $ from 'jquery';
 class Contact extends Component {
   render() {
-
     if(this.props.data){
       var name = this.props.data.name;
       var street = this.props.data.address.street;
@@ -25,7 +25,27 @@ class Contact extends Component {
          )
       })
     }
-
+    function sendEmail(e) {
+         $('#image-loader').fadeIn();
+         e.preventDefault();
+         emailjs.sendForm(
+            'service_iacstwm', 
+            'template_627ebvo', 
+            e.target, 
+            'user_VS7qKaMIzXQ5XJQrBuRv8'
+         ).then(res =>{
+            console.log(res);
+            $('#image-loader').fadeOut();
+            $('#message-warning').hide();
+            $('#contactForm').fadeOut();
+            $('#message-success').fadeIn();
+         }).catch(err => {
+            console.log(err);
+            $('#image-loader').fadeOut();
+            $('#message-warning').html(err);
+            $('#message-warning').fadeIn();
+         });
+    }
 
     return (
       <section id="contact">
@@ -49,7 +69,7 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form action="" method="post" id="contactForm" name="contactForm">
+               <form action="" method="post" id="contactForm" name="contactForm" onSubmit = {sendEmail}>
 					<fieldset>
 
                   <div>
