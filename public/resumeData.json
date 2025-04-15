@@ -57,7 +57,7 @@
       {
         "company": "Arista Networks",
         "title": "Software Engineer",
-        "years": "April 2021 – January 2022",
+        "years": "April 2021 -– January 2022",
         "description": "Developed and maintained internal web applications to automate configuration, monitoring, and validation tasks for network devices. Used Flask and ReactJS to build scalable, testable full-stack tools with intuitive UI and robust backend logic. Designed REST APIs to interface with internal systems and improve developer workflows. Enhanced user experience and performance through frontend refactors, while adhering to code quality and CI/CD standards."
       },
       {
