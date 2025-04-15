@@ -10,7 +10,7 @@
     "github":"https://github.com/kaustubhpimparkar123",
     "project":"https://www.linkedin.com/in/kaustubh-pimparkar-45042115a/",
     "address":{
-      "street":"(Your Street)",
+      "street":"50 Washington Street",
       "city":"Santa Clara",
       "state":"CA",
       "zip": "95050"
@@ -63,6 +63,20 @@
   },
   "portfolio":{
     "projects": [
+      {
+        "title": "SkyCool Systems Website",
+        "category": "Corporate WordPress Website",
+        "image": "skycool-site.jpg",
+        "url": "https://www.skycoolsystems.com/",
+        "description": "Built and maintained the corporate website for SkyCool Systems with performance optimization, responsive design, and SEO best practices tailored for a climate-tech audience."
+      },
+      {
+        "title": "StudiumTech Solutions",
+        "category": "Business Website (WordPress)",
+        "image": "studiumtech-site.jpg",
+        "url": "https://www.studiumtech.in/",
+        "description": "Developed a professional website for StudiumTech to showcase their AI-based solutions and services. Integrated custom themes, responsive UI, and clean content layout."
+      }
     ]
   }
 }
