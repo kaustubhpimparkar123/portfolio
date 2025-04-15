@@ -44,7 +44,7 @@
       {
         "company": "SkyCool Systems",
         "title": "Founding Software Engineer",
-        "years": "June 2023 – February 2025",
+        "years": "June 2023 - February 2025",
         "description": "Led full-stack development of internal dashboards for real-time monitoring of IoT sensor data using ReactJS, PHP, and Python. Built RESTful APIs and backend services to support dynamic data ingestion, alerting, and user access control. Integrated InfluxDB for handling time-series data and implemented role-based access features for field and operations teams. Optimized frontend performance and responsive design to ensure usability across field devices."
       },
       {
