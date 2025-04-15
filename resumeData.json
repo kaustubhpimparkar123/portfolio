@@ -33,18 +33,11 @@
     "skillmessage":"* Each skill level is weighted in correlation to the remaining skills",
     "education":[
       {
-        "school":"Santa Clara University, CA",
-        "gpa": "4.00 GPA",
-        "degree":"M.S in Computer Science and Engineering",
-        "graduated":"Expected: March 2023",
-        "description":"Coursework Included: Operating System, Computer Networks."
-      },
-      {
-        "school":"University of Pune, India",
-        "gpa": "3.71 GPA",
-        "degree":"Bachelor's of Engineering in Information Technology",
-        "graduated":"June 2019",
-        "description":"Coursework Included: Data Structures, Design and Analysis of Algorithms, Database Management Systems, Software Engineering, Machine Learning, Artificial Intelligence, Web Development, Data Analysis."
+        "school": "Santa Clara University, CA",
+        "gpa": "3.72 GPA",
+        "degree": "M.S. in Computer Science and Engineering",
+        "graduated": "March 2023",
+        "description": "Coursework Included: Web Development, Software Engineering, Distributed Systems, Computer Networks, Operating Systems, Cloud Computing, Human-Computer Interaction, Advanced Database Systems."
       }
     ],
     "work":[
