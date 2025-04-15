@@ -4,8 +4,8 @@ class About extends Component {
 
     if(this.props.data){
       var name = this.props.data.name;
-      // var profilepic= "images/"+this.props.data.image;
-      var profilepic = "https://media-exp1.licdn.com/dms/image/C4E03AQFfbjJ8gDMYEQ/profile-displayphoto-shrink_400_400/0/1594301804904?e=1633564800&v=beta&t=vilE0qNdXsmJYhJ7xCuyCFWX2cYGzCFSU-XbHCLqg8Y"
+      var profilepic= "images/"+this.props.data.image;
+      // var profilepic = "https://media-exp1.licdn.com/dms/image/C4E03AQFfbjJ8gDMYEQ/profile-displayphoto-shrink_400_400/0/1594301804904?e=1633564800&v=beta&t=vilE0qNdXsmJYhJ7xCuyCFWX2cYGzCFSU-XbHCLqg8Y"
       var bio = this.props.data.bio;
       var street = this.props.data.address.street;
       var city = this.props.data.address.city;
