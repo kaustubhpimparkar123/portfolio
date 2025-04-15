@@ -49,16 +49,22 @@
     ],
     "work":[
       {
-        "company":"Union Bank of Switzerland",
-        "title":"Software Engineer",
-        "years":"July 2019 - July 2020",
-        "description":"Engineered and maintained Transaction and Performance processing with CheckFree’s Global Investment Manager (GIM) system. Designed processes using database programming and shell scripting to do various tasks in the system, including Account Conversion, Performance Scheduling, Sub-Accounting. Created Automation Bots using UiPath to automate the UI Health Check of Banking Applications"
+        "company": "SkyCool Systems",
+        "title": "Founding Software Engineer",
+        "years": "June 2023 – February 2025",
+        "description": "Led full-stack development of internal dashboards for real-time monitoring of IoT sensor data using ReactJS, PHP, and Python. Built RESTful APIs and backend services to support dynamic data ingestion, alerting, and user access control. Integrated InfluxDB for handling time-series data and implemented role-based access features for field and operations teams. Optimized frontend performance and responsive design to ensure usability across field devices."
       },
       {
-        "company":"Ethosh Digital",
-        "title":"Software Intern",
-        "years":"June 2018 - July 2018",
-        "description":"Developed a voice feedback chatbot integrated in a web page using IBM Watson assistant (Bluemix) on a node server. Devised a complex dialogue for Watson assistant based on user input intents and extracted entities. Hosted the application on IBM cloud to ensure security and scalability of the application."
+        "company": "Arista Networks",
+        "title": "Software Engineer",
+        "years": "April 2021 – January 2022",
+        "description": "Developed and maintained internal web applications to automate configuration, monitoring, and validation tasks for network devices. Used Flask and ReactJS to build scalable, testable full-stack tools with intuitive UI and robust backend logic. Designed REST APIs to interface with internal systems and improve developer workflows. Enhanced user experience and performance through frontend refactors, while adhering to code quality and CI/CD standards."
+      },
+      {
+        "company":"Union Bank of Switzerland",
+        "title":"Software Engineer",
+        "years":"July 2017 - February 2020",
+        "description":"Engineered and maintained Transaction and Performance processing with CheckFree’s Global Investment Manager (GIM) system. Designed processes using database programming and shell scripting to do various tasks in the system, including Account Conversion, Performance Scheduling, Sub-Accounting. Created Automation Bots using UiPath to automate the UI Health Check of Banking Applications"
       }
     ]
   },
